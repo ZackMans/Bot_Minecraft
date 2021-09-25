@@ -14,5 +14,9 @@
     "mineflayer": "^2.37.1",
     "mineflayer-blockfinder": "0.0.7",
     "mineflayer-cmd": "^1.0.2"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
   }
 }
