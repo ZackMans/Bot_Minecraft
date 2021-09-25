@@ -1,6 +1,6 @@
 {
-	"ip":"vanevo.aternos.me",
-	"port": "25565",
+	"ip":"mansmc.aternos.me",
+	"port": "39439",
 	"name": "MyMans_Bot",
-	"auto-night-skip":"false"
+	"auto-night-skip":"true"
 }
