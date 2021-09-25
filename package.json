@@ -4,7 +4,7 @@
   "description": "Subscribe My Youtube Channel :)",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach"
+    "start": "node index.js"
   },
   "author": "MyMans",
   "license": "ISC",
