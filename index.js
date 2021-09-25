@@ -115,6 +115,7 @@ Mans.on('physicTick', () => {
 Mans.on('chat', (usernames, message) => {
   console.log("[ SERVER CHAT ] : " + message)
   if (message === 'guard') {
+    const player = Mans.players[usernames]
 
     Mans.chat('I will guard that location.')
     guardArea(player.entity.position)
