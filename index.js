@@ -117,6 +117,11 @@ Mans.on('chat', (usernames, message) => {
   if (message === 'guard') {
     const player = Mans.players[usernames]
 
+    if (!player) {
+      Mans.chat("I can't see you.")
+      return
+    }
+
     Mans.chat('I will guard that location.')
     guardArea(player.entity.position)
   }
