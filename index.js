@@ -4,12 +4,14 @@
 // > MyMans
 // > TheDude FromCI
 const MineFlayer = require("mineflayer") // View MineFlayer Module
-const cmd = require('mineflayer-cmd').plugin// Module MineFlayer Cmd
-const fs = require('fs'); // Module Fs
+const cmd = require('mineflayer-cmd').plugin
+// Module MineFlayer Cmd
+const fs = require('fs'); // Module Fs
 const pvp = require('mineflayer-pvp').plugin // Module
 const { pathfinder, Movements, goals} = require('mineflayer-pathfinder') // Module
 const armorManager = require('mineflayer-armor-manager') // Module
-let data = JSON.parse(fs.readFileSync('setting.json')); // Read File
+let data = JSON.parse(fs.readFileSync('setting.json'));
+ // Read File
 
 var host = data["ip"];
 var username = data["namebot"]
