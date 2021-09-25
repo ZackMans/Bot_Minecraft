@@ -113,7 +113,7 @@ Mans.on('physicTick', () => {
 })
 
 Mans.on('chat', (usernames, message) => {
-  console.log(message)
+  console.log("[ SERVER CHAT ] : " + message)
   if (message === 'guard') {
     const player = Mans.players[usernames]
 
