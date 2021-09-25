@@ -1,0 +1,25 @@
+{
+  "name": "MansBot",
+  "version": "1.0.0",
+  "description": "Subscribe My Youtube Channel :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach"
+  },
+  "author": "MyMans",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.3",
+    "fs": "0.0.1-security",
+    "mineflayer": "^3.11.1",
+    "mineflayer-blockfinder": "0.0.7",
+    "mineflayer-pvp": "^1.0.2",
+    "mineflayer-pathfinder": "^1.8.0",
+    "mineflayer-armor-manager": "^1.4.2",
+    "mineflayer-cmd": "^1.0.2"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  }
+}
